@@ -187,7 +187,6 @@ class ChordProgression {
         }
 };
 
-
 // TODO: change to private, i.e., implement getters/setters for fretboard
 class GuitarFretboard {
     public:
@@ -514,7 +513,7 @@ class MusicTheoryCompanion {
                         showPracticeExercisesMenu();
                         break;
                     case 9:
-                        std::cout << "Thank you for using the Guitar Music Theory Companion!" << std::endl;
+                        std::cout << "Quitting now..." << std::endl;
                         break;
                     default:
                         std::cout << "Invalid choice. Please try again." << std::endl;
